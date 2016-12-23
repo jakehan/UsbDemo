@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ButtonChoose.h"
+
+
 
 @interface ViewController : UIViewController
 
+
+@property(nonatomic,strong) ButtonChoose *BtnChoose;
 
 @end
 

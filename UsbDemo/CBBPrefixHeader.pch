@@ -1,0 +1,26 @@
+//
+//  CBBPrefixHeader.pch
+//  CBBMediaPlayerDemo
+//
+//  Created by hanbobiao on 10/7/15.
+//  Copyright (c) 2015 西安天睿软件有限责任公司. All rights reserved.
+//
+
+#ifndef CBBMediaPlayerDemo_CBBPrefixHeader_pch
+#define CBBMediaPlayerDemo_CBBPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MAC_OS
+
+//#define MAC_RESETURL 0
+#define MAC_PINCHPAN
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#endif

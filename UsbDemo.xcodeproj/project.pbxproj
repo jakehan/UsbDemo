@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57218AB01DEFADE00030BC43 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57218AAF1DEFADE00030BC43 /* RootViewController.m */; };
+		57218AB31DEFB11C0030BC43 /* SetWhiteBalanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57218AB21DEFB11C0030BC43 /* SetWhiteBalanceController.m */; };
+		57218AB51DEFB77F0030BC43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57218AB41DEFB77F0030BC43 /* QuartzCore.framework */; };
+		57218AB81DEFD1590030BC43 /* FirmwareUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57218AB71DEFD1590030BC43 /* FirmwareUpdateController.m */; };
+		575D8E4F1DEE5FDA004AAAFF /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575D8E4C1DEE5FD0004AAAFF /* Masonry.framework */; };
+		575D8E501DEE5FEE004AAAFF /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 575D8E4C1DEE5FD0004AAAFF /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		575D8E531DEE7F3B004AAAFF /* ButtonChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 575D8E521DEE7F3B004AAAFF /* ButtonChoose.m */; };
+		575D8E561DEEAD17004AAAFF /* UIPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 575D8E551DEEAD17004AAAFF /* UIPopupView.m */; };
+		575D8E591DEEB924004AAAFF /* UIColor_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 575D8E581DEEB924004AAAFF /* UIColor_Extension.m */; };
+		575D8E631DEEC263004AAAFF /* SetLensController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575D8E621DEEC263004AAAFF /* SetLensController.m */; };
 		57C7C1FB1DED47110007B3E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C7C1FA1DED47110007B3E8 /* main.m */; };
 		57C7C1FE1DED47110007B3E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C7C1FD1DED47110007B3E8 /* AppDelegate.m */; };
 		57C7C2011DED47110007B3E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C7C2001DED47110007B3E8 /* ViewController.m */; };
@@ -34,7 +44,51 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		57C7C2311DED62C40007B3E8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				575D8E501DEE5FEE004AAAFF /* Masonry.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		57218AAE1DEFADE00030BC43 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		57218AAF1DEFADE00030BC43 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		57218AB11DEFB11C0030BC43 /* SetWhiteBalanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetWhiteBalanceController.h; sourceTree = "<group>"; };
+		57218AB21DEFB11C0030BC43 /* SetWhiteBalanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetWhiteBalanceController.m; sourceTree = "<group>"; };
+		57218AB41DEFB77F0030BC43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57218AB61DEFD1590030BC43 /* FirmwareUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmwareUpdateController.h; sourceTree = "<group>"; };
+		57218AB71DEFD1590030BC43 /* FirmwareUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmwareUpdateController.m; sourceTree = "<group>"; };
+		575D8E3D1DEE5EB3004AAAFF /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = UsbDemo/Masonry.framework; sourceTree = "<group>"; };
+		575D8E3F1DEE5EC3004AAAFF /* CBBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBPrefixHeader.pch; sourceTree = "<group>"; };
+		575D8E411DEE5FD0004AAAFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		575D8E421DEE5FD0004AAAFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		575D8E431DEE5FD0004AAAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575D8E451DEE5FD0004AAAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575D8E471DEE5FD0004AAAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575D8E481DEE5FD0004AAAFF /* CBBDataStructureConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBBDataStructureConstant.h; sourceTree = "<group>"; };
+		575D8E491DEE5FD0004AAAFF /* CBBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBBPrefixHeader.pch; sourceTree = "<group>"; };
+		575D8E4A1DEE5FD0004AAAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575D8E4B1DEE5FD0004AAAFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		575D8E4C1DEE5FD0004AAAFF /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
+		575D8E4D1DEE5FD0004AAAFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		575D8E4E1DEE5FD0004AAAFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		575D8E511DEE7F3B004AAAFF /* ButtonChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonChoose.h; sourceTree = "<group>"; };
+		575D8E521DEE7F3B004AAAFF /* ButtonChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonChoose.m; sourceTree = "<group>"; };
+		575D8E541DEEAD17004AAAFF /* UIPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPopupView.h; sourceTree = "<group>"; };
+		575D8E551DEEAD17004AAAFF /* UIPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPopupView.m; sourceTree = "<group>"; };
+		575D8E571DEEB924004AAAFF /* UIColor_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor_Extension.h; sourceTree = "<group>"; };
+		575D8E581DEEB924004AAAFF /* UIColor_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor_Extension.m; sourceTree = "<group>"; };
+		575D8E5A1DEEB9CE004AAAFF /* Macors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macors.h; sourceTree = "<group>"; };
+		575D8E611DEEC263004AAAFF /* SetLensController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetLensController.h; sourceTree = "<group>"; };
+		575D8E621DEEC263004AAAFF /* SetLensController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetLensController.m; sourceTree = "<group>"; };
 		57C7C1F61DED47110007B3E8 /* UsbDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsbDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C7C1FA1DED47110007B3E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57C7C1FC1DED47110007B3E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +105,7 @@
 		57C7C21A1DED47110007B3E8 /* UsbDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsbDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C7C21E1DED47110007B3E8 /* UsbDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsbDemoUITests.m; sourceTree = "<group>"; };
 		57C7C2201DED47110007B3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C7C2321DED680C0007B3E8 /* CBBDataStructureConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBDataStructureConstant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57218AB51DEFB77F0030BC43 /* QuartzCore.framework in Frameworks */,
+				575D8E4F1DEE5FDA004AAAFF /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +135,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		575D8E401DEE5FD0004AAAFF /* UsbDemo */ = {
+			isa = PBXGroup;
+			children = (
+				575D8E411DEE5FD0004AAAFF /* AppDelegate.h */,
+				575D8E421DEE5FD0004AAAFF /* AppDelegate.m */,
+				575D8E431DEE5FD0004AAAFF /* Assets.xcassets */,
+				575D8E441DEE5FD0004AAAFF /* LaunchScreen.storyboard */,
+				575D8E461DEE5FD0004AAAFF /* Main.storyboard */,
+				575D8E481DEE5FD0004AAAFF /* CBBDataStructureConstant.h */,
+				575D8E491DEE5FD0004AAAFF /* CBBPrefixHeader.pch */,
+				575D8E4A1DEE5FD0004AAAFF /* Info.plist */,
+				575D8E4B1DEE5FD0004AAAFF /* main.m */,
+				575D8E4C1DEE5FD0004AAAFF /* Masonry.framework */,
+				575D8E4D1DEE5FD0004AAAFF /* ViewController.h */,
+				575D8E4E1DEE5FD0004AAAFF /* ViewController.m */,
+			);
+			path = UsbDemo;
+			sourceTree = "<group>";
+		};
 		57C7C1ED1DED47110007B3E8 = {
 			isa = PBXGroup;
 			children = (
 				57C7C1F81DED47110007B3E8 /* UsbDemo */,
+				57C7C22C1DED60D60007B3E8 /* Frameworks */,
 				57C7C2121DED47110007B3E8 /* UsbDemoTests */,
 				57C7C21D1DED47110007B3E8 /* UsbDemoUITests */,
 				57C7C1F71DED47110007B3E8 /* Products */,
@@ -105,6 +182,17 @@
 				57C7C1FD1DED47110007B3E8 /* AppDelegate.m */,
 				57C7C1FF1DED47110007B3E8 /* ViewController.h */,
 				57C7C2001DED47110007B3E8 /* ViewController.m */,
+				575D8E511DEE7F3B004AAAFF /* ButtonChoose.h */,
+				575D8E521DEE7F3B004AAAFF /* ButtonChoose.m */,
+				57218AAE1DEFADE00030BC43 /* RootViewController.h */,
+				57218AAF1DEFADE00030BC43 /* RootViewController.m */,
+				575D8E611DEEC263004AAAFF /* SetLensController.h */,
+				575D8E621DEEC263004AAAFF /* SetLensController.m */,
+				57218AB11DEFB11C0030BC43 /* SetWhiteBalanceController.h */,
+				57218AB21DEFB11C0030BC43 /* SetWhiteBalanceController.m */,
+				57218AB61DEFD1590030BC43 /* FirmwareUpdateController.h */,
+				57218AB71DEFD1590030BC43 /* FirmwareUpdateController.m */,
+				57C7C2321DED680C0007B3E8 /* CBBDataStructureConstant.h */,
 				57C7C2021DED47110007B3E8 /* Main.storyboard */,
 				57C7C2051DED47110007B3E8 /* Assets.xcassets */,
 				57C7C2071DED47110007B3E8 /* LaunchScreen.storyboard */,
@@ -117,6 +205,12 @@
 		57C7C1F91DED47110007B3E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				575D8E5A1DEEB9CE004AAAFF /* Macors.h */,
+				575D8E571DEEB924004AAAFF /* UIColor_Extension.h */,
+				575D8E581DEEB924004AAAFF /* UIColor_Extension.m */,
+				575D8E541DEEAD17004AAAFF /* UIPopupView.h */,
+				575D8E551DEEAD17004AAAFF /* UIPopupView.m */,
+				575D8E3F1DEE5EC3004AAAFF /* CBBPrefixHeader.pch */,
 				57C7C1FA1DED47110007B3E8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +234,16 @@
 			path = UsbDemoUITests;
 			sourceTree = "<group>";
 		};
+		57C7C22C1DED60D60007B3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57218AB41DEFB77F0030BC43 /* QuartzCore.framework */,
+				575D8E401DEE5FD0004AAAFF /* UsbDemo */,
+				575D8E3D1DEE5EB3004AAAFF /* Masonry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +254,7 @@
 				57C7C1F21DED47110007B3E8 /* Sources */,
 				57C7C1F31DED47110007B3E8 /* Frameworks */,
 				57C7C1F41DED47110007B3E8 /* Resources */,
+				57C7C2311DED62C40007B3E8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +312,7 @@
 				TargetAttributes = {
 					57C7C1F51DED47110007B3E8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W53E63XUBU;
 						ProvisioningStyle = Automatic;
 					};
 					57C7C20E1DED47110007B3E8 = {
@@ -273,8 +379,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575D8E631DEEC263004AAAFF /* SetLensController.m in Sources */,
+				575D8E561DEEAD17004AAAFF /* UIPopupView.m in Sources */,
+				57218AB01DEFADE00030BC43 /* RootViewController.m in Sources */,
+				57218AB81DEFD1590030BC43 /* FirmwareUpdateController.m in Sources */,
+				57218AB31DEFB11C0030BC43 /* SetWhiteBalanceController.m in Sources */,
 				57C7C2011DED47110007B3E8 /* ViewController.m in Sources */,
 				57C7C1FE1DED47110007B3E8 /* AppDelegate.m in Sources */,
+				575D8E591DEEB924004AAAFF /* UIColor_Extension.m in Sources */,
+				575D8E531DEE7F3B004AAAFF /* ButtonChoose.m in Sources */,
 				57C7C1FB1DED47110007B3E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +424,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		575D8E441DEE5FD0004AAAFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575D8E451DEE5FD0004AAAFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		575D8E461DEE5FD0004AAAFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575D8E471DEE5FD0004AAAFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		57C7C2021DED47110007B3E8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,8 +553,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W53E63XUBU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/UsbDemo/Masonry.framework\"",
+					"$(PROJECT_DIR)/UsbDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Volumes/done/ProjectResource/UsbDemo/UsbDemo/CBBPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/UsbDemo/Masonry.framework\"";
 				INFOPLIST_FILE = UsbDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/UsbDemo/Masonry.framework\"";
 				PRODUCT_BUNDLE_IDENTIFIER = skylight.UsbDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,8 +576,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W53E63XUBU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/UsbDemo/Masonry.framework\"",
+					"$(PROJECT_DIR)/UsbDemo",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Volumes/done/ProjectResource/UsbDemo/UsbDemo/CBBPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/UsbDemo/Masonry.framework\"";
 				INFOPLIST_FILE = UsbDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/UsbDemo/Masonry.framework\"";
 				PRODUCT_BUNDLE_IDENTIFIER = skylight.UsbDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -507,6 +660,7 @@
 				57C7C2251DED47110007B3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C7C2261DED47110007B3E8 /* Build configuration list for PBXNativeTarget "UsbDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +669,7 @@
 				57C7C2281DED47110007B3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C7C2291DED47110007B3E8 /* Build configuration list for PBXNativeTarget "UsbDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +678,7 @@
 				57C7C22B1DED47110007B3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
